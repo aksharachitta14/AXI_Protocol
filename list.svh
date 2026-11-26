@@ -1,0 +1,18 @@
+`include "uvm_pkg.sv"
+import uvm_pkg::*;
+
+`include "axi_common.sv"
+`include "axi_responder.sv"
+`include "axi_tx.sv"
+`include "axi_intrf.sv"
+`include "axi_driver.sv"
+`include "axi_sequencer.sv"
+`include "axi_monitor.sv"
+`include "axi_coverage.sv"
+`include "axi_scoreboard.sv"
+`include "axi_magent.sv"
+`include "axi_sagent.sv"
+`include "axi_env.sv"
+`include "axi_sequence.sv"
+`include "axi_test.sv"
+`include "top.sv"
